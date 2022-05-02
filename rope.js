@@ -20,7 +20,7 @@ class rope{
 		strokeWeight(2);
 
 		//WRITE THE CORRECT CODE TO RENDER A LINE BETWEEN THE TWO BODIES
-		line(roofObject.position.x,roofObject.position.y , bob.position.x,bob.position.y);
+		line(pointA.x, pointA.y, pointB.x + this.offsetX, pointB.y);
 		
 	}
 
